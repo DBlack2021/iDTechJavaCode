@@ -11,7 +11,7 @@ public class IntroToJava extends PApplet {
         size(500, 500);
     }
 
-    //
+    // drawing code
     public void draw() {
         // draw a rectangle at 100, 100 with width 40 and height 20
         rect(100, 100, 40, 20);
