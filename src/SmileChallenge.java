@@ -1,5 +1,3 @@
-package smilechallenge;
-
 import processing.core.PApplet;
 
 /**
@@ -17,5 +15,10 @@ public class SmileChallenge extends PApplet {
         // You may use any Processing functions we have learned so far, plus any you can find by doing your own research
         // HINT: Look up the arc() function in the Processing documentation
         // Processing documentation can be found at: https://processing.org/reference
+    }
+
+    public static void main(String[] args) {
+        // change "SmileChallenge" to the name of your class (remember to keep the quotes!)
+        PApplet.main("SmileChallenge");
     }
 }
