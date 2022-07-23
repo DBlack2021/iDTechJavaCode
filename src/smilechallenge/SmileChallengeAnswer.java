@@ -1,7 +1,9 @@
+package smilechallenge;
+
 import processing.core.PApplet;
 
 /**
- * A solution to the problem in SmileChallenge.java
+ * A solution to the problem in smilechallenge.SmileChallenge.java
  * Students: make sure you've given the problem a solid try before looking here!
  * This code should NOT be copy-pasted - if anything, type out the code yourself side by side and make sure you
  * understand EACH line!
@@ -15,6 +17,8 @@ public class SmileChallengeAnswer extends PApplet {
     }
 
     public void draw() {
+        // Challenge: draw a smiley face in the center of the screen.
+
         ellipse(250, 250, 500, 500);
 
         ellipse(150, 150, 50, 50);
@@ -29,6 +33,6 @@ public class SmileChallengeAnswer extends PApplet {
     }
 
     public static void main(String[] args) {
-        PApplet.main("SmileChallengeAnswer");
+        PApplet.main("smilechallenge.SmileChallengeAnswer");
     }
 }

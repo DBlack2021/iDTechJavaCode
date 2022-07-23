@@ -1,3 +1,5 @@
+package smilechallenge;
+
 import processing.core.PApplet;
 
 /**
@@ -18,7 +20,7 @@ public class SmileChallenge extends PApplet {
     }
 
     public static void main(String[] args) {
-        // change "SmileChallenge" to the name of your class (remember to keep the quotes!)
-        PApplet.main("SmileChallenge");
+        // change "smilechallenge.SmileChallenge" to the name of your class (remember to keep the quotes!)
+        PApplet.main("smilechallenge.SmileChallenge");
     }
 }
