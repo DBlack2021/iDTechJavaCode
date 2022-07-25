@@ -4,7 +4,7 @@ import processing.core.PApplet;
 
 public class TargetLogoAnswer extends PApplet {
   // Declare any variables you need up here...
-  int size = 100;
+  int size = 200;
 
   public void settings() {
     // you may change the width and height if you'd like, but I recommend keeping it a square!
